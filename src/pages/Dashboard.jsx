@@ -86,7 +86,7 @@ const Dashboard = () => {
               <div>
                 <img className="max-w-[6rem] max-h-[6rem]" src={products[Math.floor(Math.random() * 19)]?.image}  alt="placeholder" />
               </div>
-              <div>
+              <div className="mr-6">
                 <div className="flex items-center text-lg font-medium text-slate-500">
                   <span className="mr-2">
                     <BiDollar size="1.25rem" />
@@ -115,7 +115,7 @@ const Dashboard = () => {
               <div>
                 <img className="max-w-[6rem] max-h-[6rem]" src={products[Math.floor(Math.random() * 19)]?.image} alt="placeholder" />
               </div>
-              <div>
+              <div className="mr-6">
                 <div className="flex items-center text-lg font-medium text-slate-500">
                   <span className="mr-2">
                     <AiFillEye size="1.25rem" />
